@@ -57,6 +57,7 @@ a:hover {
     }
 
 /*Navigation Styles*/
+
     header{
         display: flex;
         flex-direction: column;
@@ -67,10 +68,12 @@ a:hover {
     nav {
         position: fixed;
         width: 100%;
+        min-width: 540px;
         display: flex;
         flex-direction: row;
         text-transform: uppercase;
-        margin: 1.45rem 0;
+        padding: 1.45rem 0;
+        background-color: var(--headBlue);
     }
     
 
@@ -133,11 +136,11 @@ h1 {
 }
     .sec-one {
         height: 65vh;
-        min-height: 43rem;
+        min-height: 47rem;
         flex-direction: row;
         flex-grow: 1;
         justify-content: center;
-        padding: 0 15vw;
+        padding: 6rem 15vw;
         color: var(--whiteText);
         align-items: center;
     }
